@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige WhistleBot 🎶</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="images/logo1.png" width="40px" alt="Prestige Logo" class="logo">
+            <h3>Prestige WhistleBot 🎶</h3>
+            <img src="images/whistlebot_logo.png" alt="WhistleBot Logo" class="whistlebot">
+        </div>
+        <div class="chat-window" id="chat-window">
+            <div class="bot-message">👋 Vanakkam! I'm WhistleBot 🎶 — your virtual assistant. Let's spice up your day with some hot sambar and even hotter solutions. How can I assist? 🍲</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Ask me about Prestige products!" onkeypress="if(event.key==='Enter'){sendMessage()}">
+            <button onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
